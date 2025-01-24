@@ -16,6 +16,7 @@ import { Label } from "@/components/ui/label.js"
 interface ImportMetaEnv {
   VITE_REACT_APP_PURCHASE_BEVERAGE_API_DEPLOY: any;
   VITE_REACT_APP_PURCHASE_BEVERAGE_API: any;
+  readonly VITE_REACT_APP_LOGIN_USER_API_DEPLOY: string;
   readonly VITE_REACT_APP_API_URL: {
     VITE_REACT_APP_LOGIN_USER_API_DEPLOY: string;
   };
