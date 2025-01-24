@@ -1,0 +1,17 @@
+/* Custom scrollbar styles */
+.sidebar-custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .sidebar-custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .sidebar-custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #87ceeb; /* Sky blue color */
+    border-radius: 10px;
+  }
+  
+  .sidebar-custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #00bfff; /* Darker sky blue color */
+  }

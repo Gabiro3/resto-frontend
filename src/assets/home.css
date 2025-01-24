@@ -1,0 +1,152 @@
+.navbar-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 20px;
+  background-color: rgb(248, 247, 235);
+  height: 45px;
+}
+.logo {
+  width: 20px;
+}
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.left-info,
+.right-info {
+  display: flex;
+}
+.navbar-home .text {
+  align-self: flex-end;
+}
+
+.main-home {
+  background-image: url("/images/restaurant1.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: left;
+}
+.form-home {
+  gap: 10px;
+}
+.overlay {
+  min-height: 70vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 10px;
+}
+.login-text {
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 250px;
+  text-align: left;
+}
+.contact-text {
+  display: flex;
+  justify-content: flex-end;
+  width: 180px;
+  font-style: italic;
+  font-size: 11px;
+  color: rgb(201, 199, 191);
+}
+.footer-home {
+  background-image: url("/images/lol.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.login-text-large-device {
+  color: white;
+}
+.footer-contact {
+  display: none;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+/* MOBILE  <= 481px*/
+@media screen and (max-width: 481px) {
+  .main, .input-text {
+    font-size: 13px;
+  }
+  .login-text-large-device {
+    display: none;
+  }
+  .footer-home {
+    background-image: none;
+  }
+  .overlay {
+    min-height: 100vh;
+  }
+  .footer-contact {
+    display: flex;
+  }
+}
+/* SMALL */
+@media screen and (min-width: 481px) {
+  /* .main {
+    color: red;
+  } */
+  .login-text-large-device {
+    display: none;
+  }
+  .login-form {
+    width: 400px;
+    align-self: flex-end;
+  }
+  .main-home .contact-text {
+    width: 100%;
+  }
+}
+/* TABLET >= 768px*/
+@media screen and (min-width: 768px) {
+  /* .main {
+    color: blue;
+  } */
+  .login-text-large-device {
+    display: none;
+  }
+  .main-home .contact-text {
+    width: 100%;
+  }
+  .main-home .login-text {
+    font-size: 14px;
+  }
+  .login-form {
+    width: 500px;
+    align-self: flex-end;
+  }
+}
+/* LAPTOP >= 1025px*/
+@media screen and (min-width: 1025px) {
+  /* .main {
+    color: green;
+  } */
+  .main-home .contact-text {
+    width: 100%;
+  }
+  .main-home .login-text {
+    font-size: 14px;
+  }
+  .login-form {
+    width: 600px;
+    align-self: flex-end;
+  }
+  .login-text {
+    display: none;
+  }
+  .login-text-large-device {
+    display: block;
+  }
+}
