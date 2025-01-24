@@ -19,8 +19,8 @@ interface ImportMetaEnv {
   readonly VITE_REACT_APP_API_URL: {
     VITE_REACT_APP_LOGIN_USER_API_DEPLOY: string;
   };
-  readonly VITE_REACT_APP_LOGIN_USER_API_DEPLOY: string;
   readonly VITE_REACT_APP_LOGIN_USER_API: string;
+  readonly VITE_REACT_APP_LOGIN_USER_API_DEPLOY: string;
   readonly VITE_REACT_APP_TOKEN: string;
   readonly MODE: string;
 }
@@ -56,7 +56,7 @@ const LoginForm: React.FC = () => {
 
     const isProduction = import.meta.env.MODE === "production";
     const url = isProduction
-      ? import.meta.env.VITE_REACT_APP_API_URL.VITE_REACT_APP_LOGIN_USER_API_DEPLOY
+      ? import.meta.env.VITE_REACT_APP_LOGIN_USER_API_DEPLOY
       : import.meta.env.VITE_REACT_APP_LOGIN_USER_API;
       console.log(url);
     try {
