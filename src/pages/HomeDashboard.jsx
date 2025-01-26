@@ -107,7 +107,7 @@ export default function HomeDashboard() {
           <Card>
             <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
               <CardTitle className='text-sm font-medium'>
-                Oustanding Debts
+                Outstanding Debts
               </CardTitle>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -123,9 +123,9 @@ export default function HomeDashboard() {
               </svg>
             </CardHeader>
             <CardContent>
-              <div className='text-2xl font-bold'>+573</div>
+              <div className='text-2xl font-bold'>Rwf 23,000</div>
               <p className='text-xs text-muted-foreground'>
-                +201 since last hour
+                +8000 Rwf since last week
               </p>
             </CardContent>
           </Card>

@@ -15,7 +15,7 @@ export function RecentSales() {
               e.g. Fanta, Juices, etc.
             </p>
           </div>
-          <div className='font-medium'>Rwf 1,999.00</div>
+          <div className='font-medium'>Rwf 12,000.00</div>
         </div>
       </div>
       <div className='flex items-center gap-4'>
@@ -30,7 +30,7 @@ export function RecentSales() {
               e.g. Primus, Skol, Mutzig, etc.
             </p>
           </div>
-          <div className='font-medium'>Rwf 39.00</div>
+          <div className='font-medium'>Rwf 20,000.00</div>
         </div>
       </div>
       <div className='flex items-center gap-4'>
@@ -45,7 +45,7 @@ export function RecentSales() {
               e.g. Pizza, Burgers, etc.
             </p>
           </div>
-          <div className='font-medium'>Rwf 299.00</div>
+          <div className='font-medium'>Rwf 15,000.00</div>
         </div>
       </div>
 
@@ -57,9 +57,9 @@ export function RecentSales() {
         <div className='flex flex-1 flex-wrap items-center justify-between'>
           <div className='space-y-1'>
             <p className='text-sm font-medium leading-none'>Tea & Coffee</p>
-            <p className='text-sm text-muted-foreground'>e.g. Black Coffee, African Tea etc.</p>
+            <p className='text-sm text-muted-foreground'>e.g. Black Coffee, Tea etc.</p>
           </div>
-          <div className='font-medium'>Rwf 99.00</div>
+          <div className='font-medium'>Rwf 12,000.00</div>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ export function RecentSales() {
               e.g. Vodka, Konyagi, etc.
             </p>
           </div>
-          <div className='font-medium'>Rwf 39.00</div>
+          <div className='font-medium'>Rwf 30,000.00</div>
         </div>
       </div>
     </div>
